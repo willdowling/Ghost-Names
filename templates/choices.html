@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Ghost Names</title>
+</head>
+
+<body>
+    <table>
+    <tr>
+        <td><img src= "{{ ghostimg1 }}" width="100" height="100"/></th>
+        <td> {{ ghostname1 }} </td>
+        <td> {{ ghostdesc1 }} </td>
+    </tr>
+    <tr>
+        <td><img src= "{{ ghostimg2 }}" width="100" height="100"/></th>
+        <td> {{ ghostname2 }} </td>
+        <td> {{ ghostdesc2 }} </td>
+    </tr>
+    <tr>
+        <td><img src= "{{ ghostimg3 }}" width="100" height="100"/></th>
+        <td> {{ ghostname3 }} </td>
+        <td> {{ ghostdesc3 }} </td>
+    </tr>
+    </table>
+    <form method='post'>
+        {{form.radio}}
+        {{form.submit}}
+    </form>
+</body>

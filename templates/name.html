@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Ghost Names</title>
+</head>
+
+<body>
+<form action="" method="post" novalidate>
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.firstName.label }}<br>
+        {{ form.firstName(size=32) }}
+    </p>
+    <p> 
+        {{ form.lastName.label }}<br>
+        {{ form.lastName(size=32) }} <br>
+        {{ form.submit() }}
+    </p>
+</form>
+</body>
+
+</html>

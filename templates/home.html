@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Ghost Names</title>
+</head>
+
+<body>
+    {% if user %}
+    <p>{{firstName}} "{{Gname}}" {{lastName}}</p>
+    <p><a href="/name">Change your Ghost</p></h1>
+    {% else %}
+        <h1><a href="/name">Choose a Ghost</a></h1>
+    {% endif %}
+</body>
+
+</html>
